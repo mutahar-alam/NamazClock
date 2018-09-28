@@ -1,0 +1,70 @@
+.MainClock{
+	width: 1500px;
+	height: 1750px;
+	background-color:#303030;
+}
+
+.MinuteHand{
+	width: 1px;
+	height: 90px;
+	background-color: grey;
+	position: absolute;
+	transform-origin: 50% 0;
+	border-styler:dashed;
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-bottom-color: #303030
+}
+
+.HourHand{
+	width: 2px;
+	height: 50px;
+	background-color: #303030;
+	position: absolute;
+	left: 119px;
+	top: 119px;	
+	transform-origin: 50% 0;
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+}
+
+.Info{
+	color:#CCCCCC;
+	font:20px Georgia;
+	text-align:center;
+	padding-bottom:15px;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #EDEDED
+}
+
+#left { display: inline-block; width: 42px; height: 42px; background: url(../Images/left.png);background-repeat:no-repeat;background-size:contain;cursor:pointer}
+#left:hover { display: inline-block; width: 42px; height: 42px; background: url(../Images/lefthover.png);background-repeat:no-repeat;background-size:contain;cursor:pointer}
+#right { display: inline-block; width: 42px; height: 42px; background: url(../Images/right.png);background-repeat:no-repeat;background-size:contain;cursor:pointer}
+#right:hover { display: inline-block; width: 42px; height: 42px; background: url(../Images/righthover.png);background-repeat:no-repeat;background-size:contain;cursor:pointer}
+
+.ui-autocomplete-loading {
+    background: white url('images/ui-anim_basic_16x16.gif') right center no-repeat;
+  }
+#city { width: 25em; }
+
+#MeridiemText{
+    position:relative;
+    transition-duration:5s;
+    -webkit-transition-duration:1s;
+}
+
+div.MoveLeft
+{
+    left:-500px;
+}
+div.MoveRight
+{
+    left:-500px;
+}
+
+
+
+
